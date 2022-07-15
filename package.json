@@ -1,0 +1,19 @@
+{
+  "name": "220116-game",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "closure-build": "node src/build.js",
+    "jekyll-build": "bundle exec jekyll build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/google-closure-compiler": "^0.0.19",
+    "google-closure-compiler": "x",
+    "html-minifier-terser": "^7.0.0-alpha.1"
+  },
+  "type": "module"
+}

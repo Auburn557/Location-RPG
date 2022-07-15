@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"target": "es2020",
+		"strict": true,
+		"module": "esnext",
+		"moduleResolution": "node",
+		"checkJs": true,
+		"strictNullChecks": true,
+		"noUncheckedIndexedAccess": true
+	},
+	"include": [
+		"src/**/*.js"
+	],
+	"exclude": [
+		"node_modules"
+	]
+}
